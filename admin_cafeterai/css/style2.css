@@ -1,0 +1,400 @@
+body {
+  background-color: #f3f4f7;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  -webkit-box-shadow: 0 0 8px 3px #ccc;
+          box-shadow: 0 0 8px 3px #ccc;
+  z-index: 9;
+}
+
+table {
+  border: 1px solid #ccc;
+}
+
+table td,
+table th {
+  vertical-align: unset;
+  border: 1px solid #ccc;
+}
+
+.custom-shadow, .my-orders .user-orders .order:hover, .admin-all-products .products-panel table .each-product:hover, .admin-all-users .users-panel table .each-user:hover, .checks .user-checks .user:hover, .admin-orders .order:hover {
+  -webkit-box-shadow: 0 0 8px 3px #ccc;
+          box-shadow: 0 0 8px 3px #ccc;
+}
+
+.main-padding {
+  padding: 40px 0;
+}
+
+.main-padding:first-of-type {
+  margin-top: 66px;
+}
+
+.main-padding > div.container > h1 {
+  margin-bottom: 40px;
+}
+
+.w-100, header, .orders-panel .items-notes textarea, .checks input {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.add-product [class*="col-"],
+.add-user [class*="col-"] {
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+.each-order {
+  position: relative;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.each-order h5 {
+  margin: 10px 0;
+}
+
+.each-order span:first-of-type {
+  border: 1px solid #000;
+  border-radius: 100%;
+  padding: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 15px;
+  -webkit-transform: translate(20%, -50%);
+          transform: translate(20%, -50%);
+  background-color: #fff;
+}
+
+.user-checks .each-order,
+.user-orders .each-order,
+.admin-orders .each-order {
+  margin-top: 30px;
+}
+
+.login {
+  margin: 150px 0;
+}
+
+.login .forget-password {
+  text-decoration: underline;
+}
+
+.orders-panel {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 0 8px 3px #ccc;
+          box-shadow: 0 0 8px 3px #ccc;
+}
+
+.orders-panel .choosen-items {
+  margin-bottom: 40px;
+}
+
+.orders-panel .choosen-items ul li i {
+  cursor: pointer;
+  color: #f00;
+}
+
+.orders-panel .choosen-items ul li:not(:last-child) {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.orders-panel .choosen-items .item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.orders-panel .choosen-items .item-info > div {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.orders-panel .choosen-items .item-info .item-counter span {
+  border: 1px solid #ccc;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+.orders-panel .choosen-items .item-info .item-counter i {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.orders-panel .choosen-items .item-info .item-counter i:hover {
+  -webkit-box-shadow: 0 0 5px 2px #ccc;
+          box-shadow: 0 0 5px 2px #ccc;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.orders-panel .choosen-items .item-info .price span {
+  margin-right: 10px;
+}
+
+.orders-panel .choosen-items .item-info .price i {
+  font-size: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.orders-panel .choosen-items .item-info .price i:hover {
+  -webkit-box-shadow: 0 0 5px 2px #ccc;
+          box-shadow: 0 0 5px 2px #ccc;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.orders-panel .items-notes textarea {
+  resize: none;
+  min-height: 100px;
+}
+
+.orders-panel .room {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #000;
+}
+
+.orders-panel .room select {
+  float: right;
+}
+
+.orders-panel .total-price {
+  text-align: right;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.orders-panel .confirm {
+  text-align: right;
+}
+
+.all-products .latest-orders {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #000;
+}
+
+.all-products .latest-orders h3 {
+  margin-bottom: 20px;
+}
+
+.all-products .products h3 {
+  margin-bottom: 20px;
+}
+
+.all-products .products .each-order {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 7px 3px #00000045;
+          box-shadow: 0 0 7px 3px #00000045;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.all-products .products .each-order:hover {
+  -webkit-box-shadow: 0 0 10px 7px #00000045;
+          box-shadow: 0 0 10px 7px #00000045;
+}
+
+.my-orders .user-orders table {
+  border: 1px solid #ccc;
+}
+
+.my-orders .user-orders table td,
+.my-orders .user-orders table th {
+  vertical-align: unset;
+  border: 1px solid #ccc;
+}
+
+.my-orders .user-orders .order {
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.my-orders .user-orders .order i {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.my-orders .user-orders .order > td > i {
+  float: right;
+}
+
+.my-orders .user-orders .order:hover > td > i {
+  color: #f00;
+}
+
+.my-orders .user-orders .order + tr {
+  display: none;
+}
+
+.my-orders .user-orders .total-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.admin-all-products .add-product {
+  text-align: right;
+}
+
+.admin-all-products .products-panel {
+  margin: 20px 0;
+}
+
+.admin-all-products .products-panel table {
+  text-align: center;
+}
+
+.admin-all-products .products-panel table .each-product {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.admin-all-products .products-panel table .each-product td {
+  vertical-align: unset;
+}
+
+.admin-all-products .products-panel table .each-product td:last-child {
+  width: 300px;
+}
+
+.admin-all-products .products-panel table .each-product td:last-child > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.admin-all-users .add-user {
+  text-align: right;
+}
+
+.admin-all-users .users-panel {
+  margin: 20px 0;
+}
+
+.admin-all-users .users-panel table {
+  text-align: center;
+}
+
+.admin-all-users .users-panel table .each-user {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.admin-all-users .users-panel table .each-user td {
+  vertical-align: unset;
+}
+
+.admin-all-users .users-panel table .each-user td:last-child {
+  width: 300px;
+}
+
+.admin-all-users .users-panel table .each-user td:last-child > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.modal .modal-body [class*="col-"] {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.checks .user-checks .user {
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.checks .user-checks .user i {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.checks .user-checks .user:hover > td > i {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #f00;
+}
+
+.checks .user-checks .user + tr {
+  display: none;
+}
+
+.checks .user-checks .user-data {
+  cursor: pointer;
+}
+
+.checks .user-checks .user-data:hover > td > i {
+  color: #f00;
+}
+
+.checks .user-checks .user-data + tr {
+  display: none;
+}
+
+.admin-orders .order {
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.admin-orders .order i {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.admin-orders .order:hover > td > i {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #f00;
+}
+
+.admin-orders .order + tr {
+  display: none;
+}
+
+.admin-orders .order-total-price {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: right;
+}
+
+.admin-orders .order-total-price p {
+  font-size: 25px;
+}
